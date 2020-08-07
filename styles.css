@@ -1,9 +1,152 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+#info {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
 }
 
-body {
-  background: chocolate;
-  font-size: 16px;
+#info-main {
+  display: flex;
+  margin: 9.75rem;
+  display: flex;
+  width: 570px;
+  height: 609px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#info-main h1 {
+  font-size: 60px;
+  line-height: 91px;
+}
+#info-main h5 {
+  font-size: 24px;
+  line-height: 45px;
+  font-style: normal;
+  font-weight: normal;
+  color: #6f7cb2;
+}
+
+#box {
+  width: 500px;
+  height: 302px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#info-buttons {
+  display: flex;
+
+  justify-content: space-between;
+}
+#info-pricing {
+  width: 270px;
+  height: 47px;
+  background: #37447e;
+  border: solid 0;
+}
+
+#info-visit {
+  width: 200px;
+  height: 47px;
+  background: #e9ebec;
+  border: solid 0;
+}
+
+#pricing-plans {
+  height: 811px;
+  width: 751;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Overpass", sans-serif;
+}
+#pricing-plans h1 {
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -1.5px;
+}
+#pricing-plans h2 {
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -1px;
+}
+#pricing-plans h3 {
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 31px;
+  text-align: center;
+}
+
+.pricing-plans-cards {
+  display: flex;
+  width: 750px;
+  height: 667px;
+  justify-content: space-between;
+  align-items: center;
+}
+.pricing-plans-card {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 667px;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #ebebf0;
+  border: 1px solid #c9ccd4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+
+.pricing-plans-benefits-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 388px;
+}
+.box-card {
+  height: 226px;
+  line-height: 32px;
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  width: 192px;
+  align-items: center;
+  margin: 0 auto;
+}
+.box-card li {
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+button {
+  background: #929ecc;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  width: 288px;
+  height: 60px;
 }
